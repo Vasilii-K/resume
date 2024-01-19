@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, SCC, JS, Разработка, Вёрстка">
+    <meta name="description" content="Моё резюме">
+    <title>Обо мне.</title>
+</head>
+<body>
+    <img src="#" alt="Моё фото" width="150px">
+    <h1>Василий</h1>
+    <hr>
+    <p><em><strong>Я студент</strong> бесплатного онлайн курса по основам <strong>HTML&CSS</strong>.</em></p>
+    <p><strong><em>Хочу изучить технологии для фронтенд разработки.</em></strong></p>
+    <h2><strong>Список социальных сетей:</strong></h2>
+    <strong><a href="#">Instagram</a> | <a href="#">Telegram</a> | <a href="#">Youtube</a></strong>
+    <h2>Мои хобби:</h2>
+    <ol>
+        <li>Автомобили</li>
+        <li>Компьютеры</li>
+        <li>Технологии</li>
+        <li>Dota2</li>
+        <li>GTA5 RP</li>
+    </ol>
+    <h2>Опыт работы:</h2>
+    <table border="1px" width="500px">
+        <thead>
+            <tr>
+                <th>НАЗВАНИЕ РАБОТЫ</th>
+                <th>ДОЛЖНОСТЬ</th>
+                <th>ПЕРИОД РАБОТЫ</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Продажа автозапчастей</td>
+                <td>Руководитель</td>
+                <td>2007-2024</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Связаться со мной:</h2>
+    <form action="#">
+        <div>
+            <label for="yourName">Ваше имя:</label>
+            <input type="text" id="yourName" placeholder="Введите имя">
+        </div>
+        <div>
+            <label for="yourEmail">Ваш email:</label>
+            <input type="email" id="yourEmail" placeholder="Введите email">
+        </div>
+        <div>
+            <label for="yourMessage">Ваше сообщение:</label><br>
+            <textarea id="yourMessage" cols="25" rows="6" placeholder="Введите сообщение..."></textarea>
+        </div>
+        <div>
+            <button type="submit">Отправить!</button>
+        </div>
+    </form>
+
+
+    <br>
+    <h2>Формы:</h2>
+    <form action="#">
+        <div>
+            <label for="text">Текст</label>
+            <input type="text" id="text" value="Просто текст" readonly>
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Введите EMail">
+        </div>
+        <div>
+            <label for="password">Пароль</label>
+            <input type="password" id="password">
+        </div>
+        <div>
+            <label for="number">Число</label>
+            <input type="number" id="number" min="0">
+        </div>
+        <div>
+            <label for="range">Слайдер</label>
+            <input type="range" id="range" min="0" max="10" step="1">
+        </div>
+        <div>
+            <label for="date">Дата</label>
+            <input type="date" id="date">
+        </div>
+        <div>
+            <label for="color">Цвет</label>
+            <input type="color" id="color">
+        </div>
+        <div>
+            <label for="message">Сообщение</label>
+            <br>
+            <textarea id="message" cols="20" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="sex">Ваш пол</label>
+            <select id="sex">
+                <option value="male">Мужчина</option>
+                <option value="female" selected>Женщина</option>
+                <option value="other">Другое</option>
+            </select>
+        </div>
+        <div>
+            <label>Количество работ</label>
+            <input type="radio" name="work"> 1
+            <input type="radio" name="work"> 2
+            <input type="radio" name="work"> 5
+            <input type="radio" name="work"> 10+
+        </div>
+        <div>
+            <label>Еда</label>
+            <input type="checkbox" name="food"> Картофель
+            <input type="checkbox" name="food"> Шаурма
+            <input type="checkbox" name="food"> Пиво
+            <input type="checkbox" name="food"> Рыба
+        </div>
+        <div>
+            <input type="submit" value="Отправить форму"><br>
+            <button type="reset">Отправить форму</button>
+        </div>
+        <div>
+            <label for="time">Время</label>
+            <input type="datetime-local" id="time">
+        </div>
+    </form>
+    <br><br><br><br><br>
+</body>
+</html>
