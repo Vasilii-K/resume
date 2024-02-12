@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background: #eee;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+a:active {
+    color: orange;
+}
+
+a:visited {
+    color: #aaa;
+}
+
+.btn {
+    background: #000;
+    padding: 15px 30px;
+    color: #ccc;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn:active {
+    opacity: 0.5;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.card {
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+
+.cardLogo {
+    display: inline-block;
+    max-width: 300px;
+}
+
+.cardLogo img {
+    max-width: 300px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+
+.cardName {
+    max-width: 465px;
+    margin: 0 0 30px 30px;
+    /* background-color: orange; */
+    display: inline-block;
+}
+
+.cardName h1 {
+    margin-bottom: 50px;
+}
+
+.cardName p {
+    margin: auto;
+    color: #aaa;
+}
+
+.cardName h2 {
+    margin-top: 40px;
+    font-size: 22px;
+}
+
+/* .cardInfo {
+    background-color: red;
+    display: inline-block;
+}
+
+.cardSocial {
+    background-color: green;
+    display: inline-block;
+} */
+
+.cardHobbi {
+    background-color: yellow;
+}
+
+.cardHobbi ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.cardHobbi ol li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.cardJob {
+    background-color: pink;
+}
+
+.cardJob table {
+    width: 100%;
+}
+
+.cardJob table th {
+    border-bottom: 1px solid #000;
+}
+
+.cardJob table td {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.cardNet {
+    background-color: peru;
+}
+
+.cardNet input {
+    width: 350px;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    background: transparent;
+}
+
+.cardNet textarea {
+    width: 710px;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    background: transparent;
+}
+
+.cardNet h2 {
+    text-align: center;
+}
+
+.yourName {
+    display: inline-block;
+}
+
+.yourEmail {
+    display: inline-block;
+}
